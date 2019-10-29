@@ -19,6 +19,6 @@ class String
 
   def count_sentences
     @count_sentences = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
-    self.count_sentences
+    self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
   end
 end
