@@ -18,7 +18,7 @@ class String
   end
 
   def count_sentences
-    @count_sentences = "one. two. three?"
+    @count_sentences = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
     self.count_sentences
   end
 end
